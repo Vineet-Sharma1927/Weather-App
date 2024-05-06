@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blanchedalmond;
+}
+.container{
+    border: 2px solid black ;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: max-content;
+    margin: auto;
+    margin-top: 12px;
+    background-color: aliceblue;
+}
+
+.first{
+    border: 2px solid rgb(44, 42, 42);
+    border-radius: 10px;
+    margin: 12px 0;
+    padding: 12px;
+    background-color:blanchedalmond;
+}
+.inputlocation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.input input{
+    padding: 4px;
+    font-weight: 500;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+.btn1{
+    padding: 4px;
+    font-weight: 500;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.btn2{
+    padding: 4px;
+    font-weight: 500;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+}
+.second h2{
+    margin: 5px 0;
+}
+.details{
+    display: flex;
+    gap: 40px;
+    margin-top: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.windspeed,.pressure,.humidity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
